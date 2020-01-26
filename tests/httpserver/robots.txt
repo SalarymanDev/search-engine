@@ -1,0 +1,30 @@
+# This is a sample robots.txt file.
+# All lines that do not pertain to * user-agent should be ignored.
+
+User-agent: *
+Disallow: /api/
+Allow: /api/allowedapi/
+Crawl-delay: 5
+
+# Should be ignored
+User-agent: some-bot
+Disallow: /
+Disallow: /random/path/
+Allow: /api/
+Crawl-delay: 0
+
+# Should be ignored
+User-agent: another-bot
+Crawl-delay: 15
+
+User-agent: *
+Disallow: /apiv2/
+Allow: /apiv2/allowedapiv2/specificendpoint/
+Disallow: 
+Disallow:
+
+# Should be ignored
+User-agent: *all-bots-that-end-like-this
+Allow: /api/
+Disallow: /apiv3/
+Crawl-delay: 10

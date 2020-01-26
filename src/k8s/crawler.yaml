@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: crawler
+  namespace: default
+spec:
+  selector:
+    matchLabels:
+      name: crawler
+  template:
+    metadata:
+      labels:
+        name: crawler
+    spec:
+      containers:
+      - name: crawler
+        image: gcr.io/boisboisgo/crawler@sha256:ad897a85df10a5a294e9bb34f2e743d446a2e9099d4b6d58384aadc0b0aa4765
+        env:
+          - name: BBGLOG
+            value: "0"
+          - name: BBG_BLACKLIST
+            value: /GoogleDrive/blacklist.txt
+          - name: BBG_STOPWORDS
+            value: /GoogleDrive/stopwords.txt
+          - name: BBGFRONTIER
+            value: rpc:frontier-svc:8080
+          - name: BBGEXE
+            value: /crawler
+        securityContext:
+          allowPrivilegeEscalation: true
+          runAsUser: 0
+          privileged: true
+          capabilities:
+            add: ["SYS_ADMIN"]

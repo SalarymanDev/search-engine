@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "bbg-search-254821",
+  "private_key_id": "29317747b48f214db0adeba23814c26228e26171",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDh/EJsZw+DxaK0\nkNa8/YshfRzgVi7qmAoVaiGROGhAvyD8NmCMK9CsG/RPYeHa255yWteHN/70fS2r\neN+d7Q823wqP/Dl+eM242E+Iddyvd7T463VxcMhYX5orrNe4jLBzfA1yzR8dmJcC\nRxkCQA8naQ9CgdNFuNPbt93wOqCvGZtD+YqyK52gS0HOYToQd08Ts2UOLEf1KBOT\nZx+yB9ygYenoy+mjqL3RyeNTZV1AlsnRWmyE2zp3peKrwArF187kRqeKoKSx85Df\nyQUgVLQptwjOum+0d66yaUMBYskMbipFnCQJ2a4qzSNSApaDerRMnAY8Xj459hOP\n9Zceh8+nAgMBAAECggEAAwkbb09XGFhgSM1P78v2wXq9F4+wzk/qhW0eiaUt/qin\n7cYL4qDNYHJ5A/6hml9W2ocOhsTMH5v1hWx4kdYsXSVT2VP0WxbjqeGl99mgHu9H\nDAzwT+zJlCj8mNeX3OUZkwON6VveA3dtl9ySoRgb3ACqRs9tohh10r6+iXU60VSf\n7eJ/p0NFVhr8P8fX6bZMuSMQgKMnfKUATrmuN2dvSZTJxK9kMeG4FtVjtuOFSr8J\nPirLH7Q8L/l/st1lNCxuaL2HrS/SsXjNiV7m4boxLontjyIvJYR/t7I392Vkb0pI\nkiGcK/BWxl9AsuZutGUBFxhTgNC4SmHoM2RDUJQbsQKBgQD0H6SuTDP79uCM1qEU\n5Soho06/p+Ot/6RJiJEjNId5ags05qeWYXXx/RKtvMSJKgjAd4cZC58FEPdAUTEE\n/3JIB9V8XHmE37dypQeIkDO8jHApJeUN4p6Az9NX+HXpyxW58+gz2f/HO8SrDN2Z\nCGTkWQK0YNlXFBc1UWhzTXh1HwKBgQDs+rhBLlmNrl0hT1nfgbQwBrN15GVziQB1\nf9ZkFkW8Ys8X1t0EeDcR2YUhJsvQbIkxbAnQkPnwIUXAM0YDFtwyesBWsEkV8ftE\nd7Ix1qyskc6NJtL5aabNehxEtoZdv4mG+lBMysujpjp3cz8VR5n8H8a0TN2pqaRY\nSwSMvoUMeQKBgQCnzXhtNoQlFbWUGZPvwPYM2SwwIT8nQymyQeVBxcG5e2LoogNg\nIu3nwIUuVyrg/bu2UHLUjGBqIxdRZn3DabMsP/ZG3WnKI9z9OOLMxBJL8FzIa/ve\nZ398G16ygV7LrYTppPZfbeGbGUI+MUHBBzwSmfx58Hh0mqK5S5P4ba/3EQKBgE9c\nCvYxCmZq/N8ZzrQNoITwyYpyaRMOzyuKGwa7erECue12098aTv7YRD/82QY8Qpld\nX9ALrNegnNYnlYuVTTpOZzjgoikKNyYPm4obJQpJbc1RMhe6LNTkzrCoG0krymd8\nTgXZZ+au1SeJXZfHuaZ4Ebfxgc2+dL3oqWZkqvOpAoGAeBJAbQXxdVM70GoFXHXY\nfkKxnfvh35FJ7I0oRiVBTmpsF/zk+xiF/xk5/2UR3RphogI1C8RnThCRIxEUu61r\nToAq7vE34OniJFbHA0SrryK0z2CCi3MkLMgtvAdtlrkG7UluH4JSXNorBMRjElh1\nSwwiSx1j6zoIyfaDuMcDXKk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "bbgsearch@bbg-search-254821.iam.gserviceaccount.com",
+  "client_id": "102081434337123679489",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bbgsearch%40bbg-search-254821.iam.gserviceaccount.com"
+}

@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: frontier-svc
+spec:
+  selector:
+    app: frontier
+  ports:
+    - protocol: TCP
+      port: 8080
