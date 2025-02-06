@@ -1,3 +1,6 @@
+# Authors
+Amrit Hariharan, Alex Brace, Connor Jones, Hristo Dakov, Robert Kennedy, John Paul Koenig
+
 # Code organization
 All source code is under `src/` testing code is under `tests/` the directory structure is mirrored. Any folder which is directly under `src` and is not `libs` represents a binary which is deployed. All code which has the potential to be reused across components is under `src/libs`. All code that does not contain an `int main` should be a library and should have an appropriate amount of testing.
 
